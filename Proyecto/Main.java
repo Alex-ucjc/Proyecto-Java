@@ -50,11 +50,11 @@ public class Main {
             } 
             // Función para aumentar la energía máxima
             else if (opcion == 3) {
-                // Lógica para aumentar energía
+                Robot.recargar();
             } 
             // Función para aumentar la vida máxima
             else if (opcion == 4) {
-                // Lógica para aumentar vida
+                Robot.reparar();
             } 
             // Función para salir del menú del juego
             else if (opcion == 5) {
