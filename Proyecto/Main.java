@@ -48,11 +48,11 @@ public class Main {
                     }
                 }
             } 
-            // Función para aumentar la energía máxima
+            // Función para aumentar la energía
             else if (opcion == 3) {
                 Robot.recargar();
             } 
-            // Función para aumentar la vida máxima
+            // Función para aumentar la vida
             else if (opcion == 4) {
                 Robot.reparar();
             } 
